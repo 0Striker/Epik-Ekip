@@ -1,0 +1,50 @@
+Hastane1maske=input("Eskişehir Şehir Hastanesi Lütfen Biriminizde ki Maske İhtiyacını Yazınız.....:")
+Hastane1eldiven=input("Eskişehir Şehir Hastanesi Lütfen Biriminizde ki Eldiven İhtiyacını Yazınız.....:")
+Hastane1tulum=input("Eskişehir Şehir Hastanesi Lütfen Biriminizde ki Koruyucu Tulum İhtiyacını Yazınız.....:")
+Hastane1yatak=input("Eskişehir Şehir Hastanesi Lütfen Biriminizde ki Ek Yatak İhtiyacını Yazınız.....:")
+Hastane2maske=input("İzmir Şehir Hastanesi Lütfen Biriminizde ki Maske İhtiyacını Yazınız.....:")
+Hastane2eldiven=input("İzmir Şehir Hastanesi Lütfen Biriminizde ki Eldiven İhtiyacını Yazınız.....:")
+Hastane2tulum=input("İzmir Şehir Hastanesi Lütfen Biriminizde ki Koruyucu Tulum İhtiyacını Yazınız.....:")
+Hastane2yatak=input("İzmir Şehir Hastanesi Lütfen Biriminizde ki Ek Yatak İhtiyacını Yazınız.....:")
+
+print("**********************************************************************")
+
+if Hastane1maske<Hastane2maske:
+    print("Eskişehir Şehir Hastanesinin maske ihtiyacı.....: ",Hastane2maske)
+    print("İzmir Şehir Hastanesinin maske ihtiyacı.....: ",Hastane1maske)
+else:
+    print("İzmir Şehir Hastanesinin maske ihtiyacı.....: ",Hastane1maske)
+    print("Eskişehir Şehir Hastanesinin maske ihtiyacı.....: ",Hastane2maske)
+
+print("**********************************************************************")
+
+if Hastane1eldiven<Hastane2eldiven:
+    print("Eskişehir Şehir Hastanesinin eldiven ihtiyacı.....: ",Hastane2eldiven)
+    print("İzmir Şehir Hastanesinin eldiven ihtiyacı.....: ",Hastane1eldiven)
+else:
+    print("İzmir Şehir Hastanesinin eldiven ihtiyacı.....: ",Hastane1eldiven)
+    print("Eskişehir Şehir Hastanesinin eldiven ihtiyacı.....: ",Hastane2eldiven)
+
+print("**********************************************************************")
+
+if Hastane1tulum<Hastane2tulum:
+    print("Eskişehir Şehir Hastanesinin koruyucu tulum ihtiyacı.....: ",Hastane2tulum)
+    print("İzmir Şehir Hastanesinin koruyucu tulum ihtiyacı.....: ",Hastane1tulum)
+else:
+    print("İzmir Şehir Hastanesinin koruyucu tulum ihtiyacı.....: ",Hastane1tulum)
+    print("Eskişehir Şehir Hastanesinin koruyucu tulum ihtiyacı.....: ",Hastane2tulum)
+
+print("**********************************************************************")
+
+if Hastane1yatak<Hastane2yatak:
+    print("Eskişehir Şehir Hastanesinin ek yatak ihtiyacı.....: ",Hastane2yatak)
+    print("İzmir Şehir Hastanesinin ek yatak ihtiyacı.....: ",Hastane1yatak)
+else:
+    print("İzmir Şehir Hastanesinin ek yatak ihtiyacı.....: ",Hastane1yatak)
+    print("Eskişehir Şehir Hastanesinin ek yatak ihtiyacı.....: ",Hastane2yatak)
+tus=input("programı bitirmek 'E' tuşuna basınız.")
+if tus=="E":
+    print("program burda sonlanmıştır")
+
+
+
